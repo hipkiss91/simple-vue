@@ -1,0 +1,55 @@
+{
+    "name": "simple-vues",
+    "version": "0.1.2",
+    "description": "This project makes no assumptions about the styling required for a particular project. Instead it focuses on the functionality. Making sure developers are provided with everything they need to create easy to use components that supply a cheat sheet for any use case.",
+    "private": false,
+    "license": "MIT",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "build-bundle": "vue-cli-service build --target lib --name simple-vues ./src/main.js"
+    },
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "node-sass": "^6.0.1",
+        "sass-loader": "^10.1",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ],
+    "files": [
+        "dist/*",
+        "src/*",
+        "public/*",
+        "*.json",
+        "*.js",
+        "plugins/*"
+    ]
+}
