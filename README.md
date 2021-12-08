@@ -17,15 +17,8 @@ import SimpleVues from 'simple-vues';
 
 Vue.use(SimpleVues);
 ```
-**OR**
 
-Import component:
-
-```javascript
-import { SimpleButton } from 'simple-vues';
-
-Vue.component('SimpleButton', SimpleButton);
-```
+Then use in your templates by simply importing the component `<SimpleButton/>`.
 
 ### Documentation
 
