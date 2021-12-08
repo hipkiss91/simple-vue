@@ -1,13 +1,29 @@
 {
     "name": "simple-vues",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "This project makes no assumptions about the styling required for a particular project. Instead it focuses on the functionality. Making sure developers are provided with everything they need to create easy to use components that supply a cheat sheet for any use case.",
     "private": false,
+    "keywords": [
+        "vue",
+        "npm",
+        "component",
+        "vue2",
+        "vue3",
+        "simple",
+        "vue-component",
+        "button",
+        "vuejs",
+        "vue.js",
+        "plugin",
+        "a11y",
+        "accessibility"
+    ],
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/hipkiss91/simple-vue.git"
-      },
+    },
+    "main": "dist/simple-vues.umd.min.js",
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",

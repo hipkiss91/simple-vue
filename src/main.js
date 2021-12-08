@@ -10,8 +10,10 @@ const SimpleVues = {
     }
 }
 
-export default SimpleVues;
-
 if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(SimpleVues);
+} else if (typeof global !== 'undefined') {
+    global.Vue.use(SimpleVues);
 }
+
+export default SimpleVues;
