@@ -12,7 +12,7 @@ const SimpleVues = {
 
 if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(SimpleVues);
-} else if (typeof global !== 'undefined') {
+} else if (typeof global !== 'undefined' && global.Vue) {
     global.Vue.use(SimpleVues);
 }
 
