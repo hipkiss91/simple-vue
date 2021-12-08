@@ -26,3 +26,7 @@ import { SimpleButton } from 'simple-vues';
 
 Vue.component('SimpleButton', SimpleButton);
 ```
+
+### Documentation
+
+Individual component documentation can be found in the `/docs` directory. Each file is named the same as the component. Check out the [GitHub project](https://github.com/hipkiss91/simple-vue) for ease.
