@@ -5,7 +5,7 @@ This project makes no assumptions about the styling required for a particular pr
 ### Install
 
 ```bash
-npm install simple-vue --save
+npm install simple-vues --save
 ```
 
 ### Import
